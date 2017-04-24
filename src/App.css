@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+
+.App-header {
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  border-bottom: 2px darkgrey solid;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.table {
+ margin-bottom: 50px;
+}
+
+button {
+  border-radius: 0 0 0 0 !important;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (max-width: 640px){
+  .App-intro li {
+    width: 100%;
+  }
+  .App-intro li button {
+    width: 100%;
+  }
+/* Styles */
+}
+
+

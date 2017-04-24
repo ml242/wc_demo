@@ -1,0 +1,7 @@
+.list-group-item {
+	border: 0 !important;
+}
+
+table thead tr th {
+	cursor: pointer;
+}
